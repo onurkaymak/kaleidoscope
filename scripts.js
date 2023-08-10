@@ -13,6 +13,8 @@ function kaleidoscope(min, max) {
 
 
 document.body.addEventListener("mouseover", function () {
+    const fullRGB = kaleidoscope(0, 255);
+    document.body.style.backgroundColor = `rgb(${fullRGB})`;
 
 })
 
