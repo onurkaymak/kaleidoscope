@@ -12,4 +12,7 @@ function kaleidoscope(min, max) {
 };
 
 
+document.body.addEventListener("mouseover", function () {
+
+})
 
